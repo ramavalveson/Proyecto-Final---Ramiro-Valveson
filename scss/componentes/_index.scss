@@ -4,19 +4,24 @@
 .container-carousel {
     margin: 5% auto;
     width: 90%;
-    .titulo-carousel {
-        font-family: $fontZen;
-        font-size: 2.5rem;
-        font-weight: bold;
-        text-align: center;
-        color: map-get($map: $bg-oscuro, $key: color);
-        margin-bottom: 4%;
-    }
-    div {
-        .carousel-estilos {
-            border-radius: 5%;
+    .margen-carousel {
+        @media screen and (max-width: 430px) {
+            margin-bottom: 8%;
         }
-    }        
+        .titulo-carousel {
+            font-family: $fontZen;
+            font-size: 2.5rem;
+            font-weight: bold;
+            text-align: center;
+            color: map-get($map: $bg-oscuro, $key: color);
+            margin-bottom: 4%;
+        }
+        div {
+            .carousel-estilos {
+                border-radius: 5%;
+            }
+        }        
+    }
 }
 
 /* Reseña */

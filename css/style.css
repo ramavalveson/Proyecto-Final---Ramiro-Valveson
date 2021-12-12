@@ -41,6 +41,11 @@ body {
   text-align: center;
   width: 100%;
 }
+@media screen and (max-width: 430px) {
+  .contacto-redes-container .contacto-redes div img {
+    width: 50%;
+  }
+}
 .contacto-redes-container .contacto-redes div p {
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
@@ -186,7 +191,12 @@ footer .redes-container div div .img-medios-pago {
   margin: 5% auto;
   width: 90%;
 }
-.container-carousel .titulo-carousel {
+@media screen and (max-width: 430px) {
+  .container-carousel .margen-carousel {
+    margin-bottom: 8%;
+  }
+}
+.container-carousel .margen-carousel .titulo-carousel {
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
@@ -194,7 +204,7 @@ footer .redes-container div div .img-medios-pago {
   color: #DFDFDF;
   margin-bottom: 4%;
 }
-.container-carousel div .carousel-estilos {
+.container-carousel .margen-carousel div .carousel-estilos {
   border-radius: 5%;
 }
 
@@ -427,6 +437,11 @@ footer .redes-container div div .img-medios-pago {
   width: 15%;
   text-align: center;
 }
+@media screen and (max-width: 430px) {
+  .section-ofertas .ofertas-container .ofertas div {
+    width: 20%;
+  }
+}
 .section-ofertas .ofertas-container .ofertas div img {
   width: 100%;
 }
@@ -531,7 +546,7 @@ equipos-nuevos.html - equipos-refurbished.html */
     margin: 5% auto;
   }
 }
-.pasos-container div div .img-pasos {
+.pasos-container div .img-pasos img {
   width: 50%;
 }
 .pasos-container div div .titulo-pasos {
@@ -558,8 +573,13 @@ equipos-nuevos.html - equipos-refurbished.html */
   margin-bottom: 8%;
   text-align: center;
 }
-.pasos-container div div .img {
+.pasos-container div div .boton-whatsapp img {
   width: 100%;
+}
+@media screen and (max-width: 430px) {
+  .pasos-container div div .boton-whatsapp img {
+    width: 50%;
+  }
 }
 .pasos-container div div .boton-formulario {
   margin: 0% 0% 3% 10%;
@@ -583,6 +603,10 @@ equipos-nuevos.html - equipos-refurbished.html */
   border-top: 0.2rem solid #DFDFDF;
   border-bottom: 0.2rem solid #DFDFDF;
 }
+.pasos-container div div .sorpresa {
+  width: 20%;
+  margin-top: 5%;
+}
 .pasos-container div .linea {
   border-right: 0.3rem solid #DFDFDF;
 }
@@ -593,6 +617,12 @@ equipos-nuevos.html - equipos-refurbished.html */
 .medios-pago {
   margin: 8% 38% 0% 42%;
   text-align: center;
+}
+@media screen and (max-width: 430px) {
+  .medios-pago {
+    width: 60%;
+    margin: 10% auto 0% auto;
+  }
 }
 .medios-pago h4 {
   padding: 4%;
@@ -605,6 +635,11 @@ equipos-nuevos.html - equipos-refurbished.html */
 }
 .medios-pago img {
   margin: 2% 2% 0% 2%;
+}
+@media screen and (max-width: 430px) {
+  .medios-pago img {
+    width: 20%;
+  }
 }
 
 html {

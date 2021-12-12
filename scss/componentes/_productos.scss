@@ -59,6 +59,9 @@
             div {
                 width: 15%;
                 text-align: center;
+                @media screen and (max-width: 430px) {
+                    width: 20%;
+                }
                 img {
                     width: 100%;
                 }

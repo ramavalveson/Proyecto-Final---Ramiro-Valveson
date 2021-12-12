@@ -7,5 +7,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramavalveson/Proyecto-Final---Ramiro-Valveson.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ramavalveson/Proyecto-Final---Ramiro-Valveson/issues"
+  },
+  "homepage": "https://github.com/ramavalveson/Proyecto-Final---Ramiro-Valveson#readme",
   "description": ""
 }
