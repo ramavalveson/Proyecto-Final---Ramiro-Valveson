@@ -1,0 +1,61 @@
+/* Header */
+
+.nav-uno {
+    .encabezado-container {
+        display: flex;
+        justify-content: space-between;
+        .logo-container {
+            display: flex;
+            justify-content: start;
+            margin: 3% 0% 2% 4%;
+            width: 10%;
+            .logo-aesirtec {
+                border: 0.3rem solid $colorBordes;
+                border-radius: 100%;
+                width: 100%;
+                &:hover {
+                    @include transformaciones(scale(120%) rotateX(360deg));
+                    transition: all 1.2s;
+                }
+            }
+        }
+        .cuenta-container {
+            display: flex;
+            justify-content: end;
+            margin-right: 3%;
+            width: 15%;
+            .cuenta {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+                .mi-cuenta {
+                    a {
+                        color: $colorPrincipal;
+                        font-family: $fontZen;
+                        font-size: 2rem;
+                        &:hover {
+                            text-decoration: underline;
+                            text-underline-offset: 0.5rem;
+                        }
+                    }
+                }
+                .carrito {
+                    width: 25%;
+                    .icono-carrito {
+                        width: 100%;
+                        border: 0.2rem solid $colorBordes;
+                        border-radius: 100%;
+                        &:hover {
+                            @include transformaciones(scale(120%) rotateX(360deg));
+                            transition: all 1.2S;
+                            border: 0.2rem solid $colorPrincipal;
+                            border-radius: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}

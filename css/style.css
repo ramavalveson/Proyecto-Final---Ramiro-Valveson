@@ -1,0 +1,637 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Base */
+/* Variables */
+/* Mixins */
+/* Mapas */
+/* Extends */
+.accesorios-sm .accesorios-row-sm .accesorios-col-sm img, .accesorios-xl .accesorios-row-xl .accesorios-col-xl img, .productos-container .fila-productos div a img {
+  border-radius: 5%;
+  width: 100%;
+  background-color: #FAFAFA;
+}
+
+/* Componentes */
+/* Body */
+body {
+  background-image: url("../multimedia/imagenes/fondo.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* contacto.html */
+.contacto-redes-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+.contacto-redes-container .contacto-redes {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+.contacto-redes-container .contacto-redes div {
+  text-align: center;
+  width: 100%;
+}
+.contacto-redes-container .contacto-redes div p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  margin: 1%;
+  color: #DFDFDF;
+}
+
+.formulario h3 {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  background-color: #1563e9;
+  color: #DFDFDF;
+  padding: 2%;
+  margin: 4% 40%;
+  border-radius: 10%;
+  border-style: solid;
+  border-color: #DFDFDF;
+}
+
+/* Footer */
+footer {
+  background-image: url("../multimedia/imagenes/fondo-dos.png");
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: 100%;
+  padding-bottom: 3%;
+}
+footer section .titulo-slogan {
+  background-color: #2288be;
+  text-align: center;
+  margin: 15% 0% 0.5% 0%;
+  padding: 0.5%;
+  border-top: 0.3rem solid #DFDFDF;
+}
+footer section .titulo-slogan:hover {
+  transition: all 1s;
+  background-color: #1563e9;
+}
+footer section .titulo-slogan a {
+  display: block;
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-size: 3rem;
+  letter-spacing: 2rem;
+  color: #DFDFDF;
+}
+footer section .slogan {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  color: #2288be;
+  font-weight: bold;
+  word-spacing: 1rem;
+  margin-bottom: 2%;
+  border-bottom: solid;
+  padding-bottom: 1.5%;
+}
+footer .redes-container div div .titulo-redes {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: bold;
+  color: #2288be;
+  letter-spacing: 0.2rem;
+  font-size: 1.5rem;
+}
+footer .redes-container div div .iconos-redes {
+  width: 50%;
+}
+footer .redes-container div div p {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  color: #2288be;
+  font-size: 1.4rem;
+}
+footer .redes-container div div .img-medios-pago {
+  padding-top: 50%;
+  width: 50%;
+}
+
+/* Header */
+.nav-uno .encabezado-container {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-uno .encabezado-container .logo-container {
+  display: flex;
+  justify-content: start;
+  margin: 3% 0% 2% 4%;
+  width: 10%;
+}
+.nav-uno .encabezado-container .logo-container .logo-aesirtec {
+  border: 0.3rem solid #1563e9;
+  border-radius: 100%;
+  width: 100%;
+}
+.nav-uno .encabezado-container .logo-container .logo-aesirtec:hover {
+  transform: scale(120%) rotateX(360deg);
+  -webkit-transform: scale(120%) rotateX(360deg);
+  -o-transform: scale(120%) rotateX(360deg);
+  -moz-transform: scale(120%) rotateX(360deg);
+  transition: all 1.2s;
+}
+.nav-uno .encabezado-container .cuenta-container {
+  display: flex;
+  justify-content: end;
+  margin-right: 3%;
+  width: 15%;
+}
+.nav-uno .encabezado-container .cuenta-container .cuenta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.nav-uno .encabezado-container .cuenta-container .cuenta .mi-cuenta a {
+  color: #DFDFDF;
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-size: 2rem;
+}
+.nav-uno .encabezado-container .cuenta-container .cuenta .mi-cuenta a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+}
+.nav-uno .encabezado-container .cuenta-container .cuenta .carrito {
+  width: 25%;
+}
+.nav-uno .encabezado-container .cuenta-container .cuenta .carrito .icono-carrito {
+  width: 100%;
+  border: 0.2rem solid #1563e9;
+  border-radius: 100%;
+}
+.nav-uno .encabezado-container .cuenta-container .cuenta .carrito .icono-carrito:hover {
+  transform: scale(120%) rotateX(360deg);
+  -webkit-transform: scale(120%) rotateX(360deg);
+  -o-transform: scale(120%) rotateX(360deg);
+  -moz-transform: scale(120%) rotateX(360deg);
+  transition: all 1.2S;
+  border: 0.2rem solid #DFDFDF;
+  border-radius: 100%;
+}
+
+/* index.html */
+/* Carouseles */
+.container-carousel {
+  margin: 5% auto;
+  width: 90%;
+}
+.container-carousel .titulo-carousel {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #DFDFDF;
+  margin-bottom: 4%;
+}
+.container-carousel div .carousel-estilos {
+  border-radius: 5%;
+}
+
+/* Reseña */
+.reseña p {
+  font-family: "Roboto", sans-serif;
+  background-color: #1563e9;
+  color: #DFDFDF;
+  font-size: 2rem;
+  margin: 0% 3% 3% 3%;
+  padding: 1% 0%;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 10%;
+  border-top: solid;
+  border-color: #DFDFDF;
+  text-align: center;
+}
+.reseña .systems-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.reseña .systems-container .systems {
+  display: flex;
+  margin: 0% 1% 0% 1%;
+}
+@media screen and (max-width: 430px) {
+  .reseña .systems-container .systems {
+    width: 10%;
+  }
+}
+.reseña .systems-container .systems .android {
+  width: 100%;
+}
+.reseña .systems-container .systems .apple {
+  width: 86%;
+}
+
+/* Video tutorial */
+.tutorial {
+  text-align: center;
+}
+@media screen and (max-width: 430px) {
+  .tutorial {
+    display: none;
+  }
+}
+.tutorial h4 {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  margin: 8% 20% 2% 20%;
+  padding: 0.8%;
+  border-top: solid;
+  border-bottom: solid;
+  border-color: #DFDFDF;
+  border-radius: 20%;
+  font-weight: bold;
+  font-size: 2rem;
+  background-color: #1563e9;
+  color: #DFDFDF;
+  letter-spacing: 0.3rem;
+}
+.tutorial .video-tutorial {
+  width: 50%;
+}
+@media screen and (min-width: 431px) and (max-width: 1030px) {
+  .tutorial .video-tutorial {
+    width: 80%;
+  }
+}
+
+/* Opiniones de clientes */
+.clientes h4 {
+  font-family: "Roboto", sans-serif;
+  color: #DFDFDF;
+  font-size: 3rem;
+  margin: 10% 0% 1% 22%;
+}
+.clientes .opinion-container {
+  display: flex;
+  justify-content: start;
+  margin: 3% 0% 3% 15%;
+}
+.clientes .opinion-container .opinion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.clientes .opinion-container .opinion .usuario-container {
+  margin-right: 5%;
+}
+.clientes .opinion-container .opinion .usuario-container .usuario {
+  width: 100%;
+  background-color: #DFDFDF;
+  padding: 10%;
+  border-radius: 100%;
+}
+@media screen and (max-width: 430px) {
+  .clientes .opinion-container .opinion .usuario-container .usuario {
+    width: 75%;
+  }
+}
+.clientes .opinion-container .opinion div p {
+  background-color: #DFDFDF;
+  padding: 1%;
+  color: #2288be;
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-style: oblique;
+  font-size: 1.6rem;
+  border-left: 1rem solid;
+  border-right: 1rem solid;
+  border-color: #1563e9;
+  border-radius: 10%;
+  max-width: 50%;
+}
+
+/* Menú */
+.nav-menu {
+  position: sticky;
+  top: 0%;
+  background-image: url("../multimedia/imagenes/fondo-dos.png");
+  border-top: 0.3rem solid #1563e9;
+  border-bottom: 0.3rem solid #1563e9;
+  border-bottom-left-radius: 8%;
+  border-bottom-right-radius: 8%;
+  border-top-left-radius: 2%;
+  border-top-right-radius: 2%;
+  z-index: 10;
+}
+.nav-menu .menu-container {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+.nav-menu .menu-container .menu {
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+}
+.nav-menu .menu-container .menu .menu-li {
+  padding: 1.2% 0%;
+}
+.nav-menu .menu-container .menu .menu-li:hover .sub-menu {
+  display: block;
+  background-image: url("../multimedia/imagenes/fondo-dos.png");
+}
+.nav-menu .menu-container .menu .menu-li a {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-size: 2rem;
+  color: #2288be;
+}
+.nav-menu .menu-container .menu .menu-li a:hover {
+  color: #1563e9;
+}
+.nav-menu .menu-container .menu .menu-li .sub-menu {
+  position: absolute;
+  display: none;
+  width: 16.5%;
+  margin-top: 0.8%;
+  border-left: 0.3rem solid #1563e9;
+  border-right: 0.3rem solid #1563e9;
+  border-bottom: 0.3rem solid #1563e9;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+}
+.nav-menu .menu-container .menu .menu-li .sub-menu .sub-menu-li {
+  display: block;
+  margin: 1% 1%;
+  padding: 0% 1%;
+  width: 100%;
+}
+.nav-menu .menu-container .menu .menu-li .sub-menu .sub-menu-li a {
+  font-size: 1.8rem;
+}
+
+/* productos.html */
+.productos-container {
+  width: 80%;
+}
+.productos-container .fila-productos {
+  margin-bottom: 4%;
+}
+.productos-container .fila-productos .titulo-productos {
+  background-color: #2288be;
+  color: #DFDFDF;
+  padding: 1%;
+  margin: 6% 30% 3% 30%;
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-size: 2rem;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #DFDFDF;
+  border-radius: 20%;
+  text-align: center;
+}
+.section-ofertas {
+  margin: 8% 2%;
+}
+.section-ofertas h4 {
+  background-color: #cf2305;
+  color: #DFDFDF;
+  padding: 1%;
+  margin: 15% 0% 2% 0%;
+  text-align: center;
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+  text-transform: capitalize;
+  border-radius: 20%;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #DFDFDF;
+}
+.section-ofertas .ofertas-container {
+  display: flex;
+  justify-content: center;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #DFDFDF;
+  padding: 3% 0%;
+}
+.section-ofertas .ofertas-container .ofertas {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 100%;
+}
+.section-ofertas .ofertas-container .ofertas div {
+  width: 15%;
+  text-align: center;
+}
+.section-ofertas .ofertas-container .ofertas div img {
+  width: 100%;
+}
+.section-ofertas .ofertas-container .ofertas div .descripcion-oferta {
+  color: #DFDFDF;
+  font-size: 1.5rem;
+  font-family: "Zen Kaku Gothic New", sans-serif;
+}
+
+/* quienes-somos.html */
+.nosotros {
+  margin: 2% 20% 0% 20%;
+  background-image: linear-gradient(#DFDFDF, #8db8f8);
+  color: #1563e9;
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-style: oblique;
+  font-size: 2rem;
+  line-height: 3.5rem;
+  padding: 3%;
+  border-style: solid;
+  border-color: #1563e9;
+  border-radius: 5%;
+  text-indent: 4rem;
+}
+@media screen and (max-width: 1030px) {
+  .nosotros {
+    margin: 2% 10% 0% 10%;
+  }
+}
+
+/* secciones-productos */
+/* accesorios.html - parlantes-bluetooth.html - 
+equipos-nuevos.html - equipos-refurbished.html */
+/* Grid para PC */
+.accesorios-xl {
+  margin: 2% auto 0% auto;
+  width: 90%;
+}
+@media screen and (max-width: 430px) {
+  .accesorios-xl {
+    display: none;
+  }
+}
+.accesorios-xl .accesorios-row-xl .accesorios-col-xl {
+  margin: 3%;
+}
+.accesorios-xl .accesorios-row-xl .accesorios-col-xl:hover {
+  transform: scale(110%);
+  -webkit-transform: scale(110%);
+  -o-transform: scale(110%);
+  -moz-transform: scale(110%);
+  transition: all 0.5s;
+}
+.accesorios-xl .accesorios-row-xl .accesorios-col-xl p {
+  color: #DFDFDF;
+  text-align: center;
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-size: 2rem;
+}
+
+/* Grid para Mobile */
+.accesorios-sm {
+  margin: 5% auto 0% auto;
+  width: 90%;
+}
+@media screen and (min-width: 431px) {
+  .accesorios-sm {
+    display: none;
+  }
+}
+.accesorios-sm .accesorios-row-sm {
+  margin: 8% auto;
+  background-color: #DFDFDF;
+  border-radius: 5%;
+}
+.accesorios-sm .accesorios-row-sm:hover {
+  transform: scale(110%);
+  -webkit-transform: scale(110%);
+  -o-transform: scale(110%);
+  -moz-transform: scale(110%);
+  transition: all 0.5s;
+}
+.accesorios-sm .accesorios-row-sm .accesorios-col-sm img {
+  position: relative;
+  left: 5%;
+}
+.accesorios-sm .accesorios-row-sm .accesorios-col-sm p {
+  color: #2288be;
+  text-align: center;
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-size: 3rem;
+}
+
+/* Servicio-tecnico.html */
+.pasos-container {
+  margin: 5% 35% 5% 30%;
+  width: 35%;
+}
+@media screen and (max-width: 430px) {
+  .pasos-container {
+    width: 80%;
+    margin: 5% auto;
+  }
+}
+.pasos-container div div .img-pasos {
+  width: 50%;
+}
+.pasos-container div div .titulo-pasos {
+  color: #DFDFDF;
+  background-color: #2288be;
+  padding: 6% 3%;
+  font-size: 2rem;
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+  border-top: 0.2rem solid #DFDFDF;
+  text-align: center;
+}
+.pasos-container div div .indicacion {
+  background-image: url("../multimedia/imagenes/fondo-dos.png");
+  color: #2288be;
+  padding: 4%;
+  border-bottom: 0.2rem solid;
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  border-color: #1563e9;
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 8%;
+  text-align: center;
+}
+.pasos-container div div .img {
+  width: 100%;
+}
+.pasos-container div div .boton-formulario {
+  margin: 0% 0% 3% 10%;
+  background-color: #1563e9;
+  color: #DFDFDF;
+  padding: 4%;
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-size: 2rem;
+  border: 0.2rem solid #DFDFDF;
+  border-radius: 10%;
+}
+.pasos-container div div .recordatorio {
+  font-family: "Roboto", sans-serif;
+  color: #DFDFDF;
+  background-color: #1563e9;
+  text-align: center;
+  padding: 3%;
+  font-size: 1.4rem;
+  letter-spacing: 0.3rem;
+  border-radius: 20%;
+  border-top: 0.2rem solid #DFDFDF;
+  border-bottom: 0.2rem solid #DFDFDF;
+}
+.pasos-container div .linea {
+  border-right: 0.3rem solid #DFDFDF;
+}
+.pasos-container .fila-margen {
+  margin-top: 10%;
+}
+
+.medios-pago {
+  margin: 8% 38% 0% 42%;
+  text-align: center;
+}
+.medios-pago h4 {
+  padding: 4%;
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-size: 2rem;
+  color: #2288be;
+  background-color: #DFDFDF;
+  border: 0.2rem solid #1563e9;
+  border-radius: 20%;
+}
+.medios-pago img {
+  margin: 2% 2% 0% 2%;
+}
+
+html {
+  font-size: 62.5%;
+}
+@media screen and (max-width: 430px) {
+  html {
+    font-size: 25%;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: oblique;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5%;
+  color: #DFDFDF;
+  font-size: 4rem;
+}
+
+/*# sourceMappingURL=style.css.map */

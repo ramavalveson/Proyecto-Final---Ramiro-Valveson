@@ -1,0 +1,61 @@
+/* secciones-productos */
+/* accesorios.html - parlantes-bluetooth.html - 
+equipos-nuevos.html - equipos-refurbished.html */
+
+/* Grid para PC */ 
+.accesorios-xl {
+    margin: 2% auto 0% auto;
+    width: 90%; 
+    @media screen and (max-width: 430px) {
+        display: none;
+    }
+    .accesorios-row-xl {
+        .accesorios-col-xl {
+            margin: 3%;
+            &:hover {
+                @include transformaciones(scale(110%));
+                transition: all 0.5s;
+            }
+            img {
+                @extend %imagenes;
+            }
+            p {
+                color: $colorPrincipal;
+                text-align: center;
+                font-family: $fontZen;
+                font-size: 2rem;
+            }
+        }
+    }
+}
+
+/* Grid para Mobile */
+.accesorios-sm {
+    margin: 5% auto 0% auto;
+    width: 90%; 
+    @media screen and (min-width: 431px) {
+        display: none;
+    }
+    .accesorios-row-sm {
+        margin: 8% auto;
+        background-color: $colorPrincipal;
+        border-radius: 5%;
+        &:hover {
+            @include transformaciones(scale(110%));
+            transition: all 0.5s;
+        }
+        .accesorios-col-sm {
+            img {
+                @extend %imagenes;
+                position: relative;
+                left: 5%;
+            }
+            p {
+                color: map-get($map: $bg-claro, $key: color);
+                text-align: center;
+                font-family: $fontZen;
+                font-size: 3rem;
+            }
+        }
+    }
+}

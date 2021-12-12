@@ -1,0 +1,89 @@
+/* Servicio-tecnico.html */
+
+.pasos-container {
+    margin: 5% 35% 5% 30%;
+    width: 35%;
+    @media screen and (max-width:430px) {
+        width: 80%;
+        margin: 5% auto;
+    }
+    div {
+        div {
+            .img-pasos {
+                width: 50%;
+            }
+            .titulo-pasos {
+                color: map-get($map: $bg-oscuro, $key: color);
+                background-color: map-get($map: $bg-oscuro, $key: bg-light);
+                padding: 6% 3%;
+                font-size: 2rem;
+                font-family: $fontZen;
+                border-top-left-radius: 20%;
+                border-top-right-radius: 20%;
+                border-top: 0.2rem solid map-get($map: $bg-oscuro, $key: border-color);
+                text-align: center;
+            }
+            .indicacion {
+                background-image: $fondoGris;
+                color: map-get($map: $bg-claro, $key: color);
+                padding: 4%;
+                border-bottom: 0.2rem solid;
+                border-bottom-left-radius: 20%;
+                border-bottom-right-radius: 20%;
+                border-color: map-get($map: $bg-claro, $key: border-color);
+                font-family: $fontZen;
+                font-size: 1.5rem;
+                margin-bottom: 8%;
+                text-align: center;
+            }
+            .img {
+                width: 100%;
+            }
+            .boton-formulario {
+                margin: 0% 0% 3% 10%;
+                background-color: map-get($map: $bg-oscuro, $key: bg-dark);
+                color: map-get($map: $bg-oscuro, $key: color);
+                padding: 4%;
+                font-family: $fontZen;
+                font-size: 2rem;
+                border: 0.2rem solid map-get($map: $bg-oscuro, $key: border-color);
+                border-radius: 10%;
+            }
+            .recordatorio {
+                font-family: $fontRoboto;
+                color: map-get($map: $bg-oscuro, $key: color);
+                background-color: map-get($map: $bg-oscuro, $key: bg-dark);
+                text-align: center;
+                padding: 3%;
+                font-size: 1.4rem;
+                letter-spacing: 0.3rem;
+                border-radius: 20%;
+                border-top: 0.2rem solid map-get($map: $bg-oscuro, $key: border-color);
+                border-bottom: 0.2rem solid map-get($map: $bg-oscuro, $key: border-color);
+            }
+        }
+        .linea {
+            border-right: 0.3rem solid $colorPrincipal;
+        }
+    }
+    .fila-margen {
+        margin-top: 10%;
+    }
+}
+
+.medios-pago {
+    margin: 8% 38% 0% 42%;
+    text-align: center;  
+    h4 {
+        padding: 4%;
+        font-family: $fontZen;
+        font-size: 2rem;
+        color: map-get($map: $bg-claro, $key: color);
+        background-color: map-get($map: $bg-claro, $key: bg);
+        border: 0.2rem solid map-get($map: $bg-claro, $key: border-color);
+        border-radius: 20%;
+    }
+    img {
+        margin: 2% 2% 0% 2%;
+    }
+}

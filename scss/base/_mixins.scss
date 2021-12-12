@@ -1,0 +1,8 @@
+/* Mixins */
+
+@mixin transformaciones($transformaciones) {
+    transform: $transformaciones;
+    -webkit-transform: $transformaciones;
+    -o-transform: $transformaciones;
+    -moz-transform: $transformaciones;
+}

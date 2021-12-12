@@ -1,0 +1,15 @@
+/* Mapas */
+
+$bg-claro: (
+    bg: $colorPrincipal,
+    bi: $fondoGris,
+    color: $colorSecundario,
+    border-color: $colorBordes
+);
+
+$bg-oscuro: (
+    bg-light: $colorSecundario,
+    bg-dark: $colorBordes,
+    color: $colorPrincipal,
+    border-color: $colorPrincipal,
+);

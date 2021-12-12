@@ -1,0 +1,65 @@
+/* Footer */
+
+footer {
+    background-image: $fondoGris;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: 100%;
+    padding-bottom: 3%;
+    section {
+        .titulo-slogan {
+            background-color: $colorSecundario;
+            text-align: center;
+            margin: 15% 0% 0.5% 0%;
+            padding: 0.5%;
+            border-top: 0.3rem solid $colorPrincipal;
+            &:hover {
+                transition: all 1s;
+                background-color: $colorBordes;         
+            }
+            a {
+                display: block;
+                font-family: $fontZen;
+                font-size: 3rem;
+                letter-spacing: 2rem;
+                color: $colorPrincipal;            
+            }
+        }
+        .slogan {
+            font-family: $fontZen;
+            font-size: 2rem;
+            text-align: center;
+            color: $colorSecundario;
+            font-weight: bold;
+            word-spacing: 1rem;
+            margin-bottom: 2%;
+            border-bottom: solid;
+            padding-bottom: 1.5%;
+        }
+    }  
+    .redes-container {   
+        div {
+            div {
+                .titulo-redes {
+                    font-family: $fontZen;
+                    font-weight: bold;
+                    color: $colorSecundario;
+                    letter-spacing: 0.2rem;
+                    font-size: 1.5rem;
+                }
+                .iconos-redes {
+                    width: 50%;
+                }
+                p {
+                    font-family: $fontZen;
+                    color: $colorSecundario;
+                    font-size: 1.4rem;
+                }
+                .img-medios-pago {
+                    padding-top: 50%;
+                    width: 50%;
+                }
+            }
+        }
+    }
+}

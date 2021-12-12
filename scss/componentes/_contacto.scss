@@ -1,0 +1,37 @@
+/* contacto.html */ 
+
+.contacto-redes-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;    
+    .contacto-redes {
+        display: flex;
+        justify-content: space-between;
+        width: 30%;      
+        div {
+            text-align: center;
+            width: 100%;   
+            p {
+                font-family: $fontRoboto;
+                font-size: 1.5rem;
+                margin: 1%;
+                color: $colorPrincipal;
+            }
+        }
+    }
+}
+
+.formulario {
+    h3 {
+        font-family: $fontZen;
+        font-size: 2.5rem;
+        text-align: center;
+        background-color: $colorBordes;
+        color: $colorPrincipal;
+        padding: 2%;
+        margin: 4% 40%;
+        border-radius: 10%;
+        border-style: solid;
+        border-color: $colorPrincipal;
+    }
+}

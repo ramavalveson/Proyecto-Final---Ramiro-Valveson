@@ -1,0 +1,59 @@
+/* Menú */
+
+.nav-menu {
+    position: sticky;
+    top: 0%;
+    background-image: $fondoGris;
+    border-top: 0.3rem solid $colorBordes;
+    border-bottom: 0.3rem solid $colorBordes;
+    border-bottom-left-radius: 8%;
+    border-bottom-right-radius: 8%;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    z-index: 10;    
+    .menu-container {
+        display: flex;
+        justify-content: end;
+        width: 100%;
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            width: 75%;
+            .menu-li {
+                padding: 1.2% 0%;
+                &:hover .sub-menu {
+                    display: block;
+                    background-image: $fondoGris;
+                }
+                a {
+                    font-family: $fontZen;
+                    font-size: 2rem;
+                    color: $colorSecundario;
+                    &:hover {
+                        color: $colorBordes;
+                    }
+                }
+                .sub-menu {
+                    position: absolute;
+                    display: none;
+                    width: 16.5%;
+                    margin-top: 0.8%;
+                    border-left: 0.3rem solid $colorBordes;
+                    border-right: 0.3rem solid $colorBordes;
+                    border-bottom: 0.3rem solid $colorBordes;
+                    border-bottom-left-radius: 5%;
+                    border-bottom-right-radius: 5%;
+                    .sub-menu-li {
+                        display: block;
+                        margin: 1% 1%;
+                        padding: 0% 1%;
+                        width: 100%;
+                        a {
+                            font-size: 1.8rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

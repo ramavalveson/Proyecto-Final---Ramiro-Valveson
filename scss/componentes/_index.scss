@@ -1,0 +1,133 @@
+/* index.html */
+
+/* Carouseles */
+.container-carousel {
+    margin: 5% auto;
+    width: 90%;
+    .titulo-carousel {
+        font-family: $fontZen;
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-align: center;
+        color: map-get($map: $bg-oscuro, $key: color);
+        margin-bottom: 4%;
+    }
+    div {
+        .carousel-estilos {
+            border-radius: 5%;
+        }
+    }        
+}
+
+/* Reseña */
+.reseña {
+    p {
+        font-family: $fontRoboto;
+        background-color: map-get($map: $bg-oscuro, $key: bg-dark);
+        color: map-get($map: $bg-oscuro, $key: color);
+        font-size: 2rem;
+        margin: 0% 3% 3% 3%;
+        padding: 1% 0%;
+        border-top-left-radius: 100%;
+        border-top-right-radius: 10%;
+        border-top: solid;
+        border-color: map-get($map: $bg-oscuro, $key: border-color);
+        text-align: center;
+    }
+    .systems-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;    
+        .systems {
+            display: flex;
+            margin: 0% 1% 0% 1%;
+            @media screen and (max-width: 430px) {
+                width: 10%;
+            }
+            .android {
+                width: 100%;
+            }
+            .apple {
+                width: 86%;
+            }
+        }
+    }
+}
+
+/* Video tutorial */
+.tutorial {
+    text-align: center;
+    @media screen and (max-width: 430px) {
+        display: none;
+    }
+    h4 {
+        font-family: $fontZen;
+        margin: 8% 20% 2% 20%;
+        padding: 0.8%;
+        border-top: solid;
+        border-bottom: solid;
+        border-color: map-get($map: $bg-oscuro, $key: border-color);
+        border-radius: 20%;
+        font-weight: bold;
+        font-size: 2rem;
+        background-color: map-get($map: $bg-oscuro, $key: bg-dark);
+        color: map-get($map: $bg-oscuro, $key: color);
+        letter-spacing: 0.3rem;
+    }
+    .video-tutorial {
+        width: 50%;
+        @media screen and (min-width: 431px) and (max-width: 1030px) {
+            width: 80%;
+        }
+    }
+}
+
+/* Opiniones de clientes */
+
+.clientes {
+    h4 {
+        font-family: $fontRoboto;
+        color: map-get($map: $bg-oscuro, $key: color);
+        font-size: 3rem;
+        margin: 10% 0% 1% 22%;    
+    }
+    .opinion-container {
+        display: flex;
+        justify-content: start;
+        margin: 3% 0% 3% 15%;
+        .opinion {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            .usuario-container {
+                margin-right: 5%;
+                .usuario {
+                    width: 100%;
+                    background-color: map-get($map: $bg-claro, $key: bg);
+                    padding: 10%;
+                    border-radius: 100%;
+                    @media screen and (max-width: 430px) {
+                        width: 75%;
+                    }
+                }         
+            }     
+            div {
+                p {
+                    background-color: map-get($map: $bg-claro, $key: bg);
+                    padding: 1%;
+                    color: map-get($map: $bg-claro, $key: color);
+                    font-family: $fontZen;
+                    font-style: oblique;
+                    font-size: 1.6rem;
+                    border-left: 1rem solid;
+                    border-right: 1rem solid;
+                    border-color: map-get($map: $bg-claro, $key: border-color);
+                    border-radius: 10%;
+                    max-width: 50%;
+                }
+            }
+        }
+    }
+}

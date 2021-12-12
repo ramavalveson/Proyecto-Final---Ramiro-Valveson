@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import "base/imports";
+
+html {
+    font-size: 62.5%;
+    @media screen and (max-width: 430px) {
+        font-size: 25%;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    font-family: $fontRoboto;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5%;
+    color: $colorPrincipal;
+    font-size: 4rem;
+}
+
+
+
