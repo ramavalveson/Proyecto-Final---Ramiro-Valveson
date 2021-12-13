@@ -2,25 +2,27 @@
 
 .productos-container {
     width: 80%;
-    .fila-productos {
-        margin-bottom: 4%;
-        .titulo-productos {
-            background-color: map-get($map: $bg-oscuro, $key: bg-light);
-            color: map-get($map: $bg-oscuro, $key: color);
-            padding: 1%;
-            margin: 6% 30% 3% 30%;
-            font-family: $fontZen;
-            font-size: 2rem;
-            border-top-style: solid;
-            border-bottom-style: solid;
-            border-color: map-get($map: $bg-oscuro, $key: border-color);
-            border-radius: 20%;
-            text-align: center;
-        }
-        div {
-            a {
-                img {
-                    @extend %imagenes;
+    div {
+        .col-productos {
+            margin-bottom: 5%;
+            .titulo-productos {
+                background-color: map-get($map: $bg-oscuro, $key: bg-light);
+                color: map-get($map: $bg-oscuro, $key: color);
+                padding: 1%;
+                margin: 6% 30% 3% 30%;
+                font-family: $fontZen;
+                font-size: 2rem;
+                border-top-style: solid;
+                border-bottom-style: solid;
+                border-color: map-get($map: $bg-oscuro, $key: border-color);
+                border-radius: 20%;
+                text-align: center;
+            }
+            div {
+                a {
+                    img {
+                        @extend %imagenes;
+                    }
                 }
             }
         }

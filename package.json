@@ -1,11 +1,11 @@
 {
-  "name": "desafio-12",
+  "name": "Aesirtec",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Ramiro-Valveson",
   "license": "ISC",
   "repository": {
     "type": "git",
@@ -15,5 +15,5 @@
     "url": "https://github.com/ramavalveson/Proyecto-Final---Ramiro-Valveson/issues"
   },
   "homepage": "https://github.com/ramavalveson/Proyecto-Final---Ramiro-Valveson#readme",
-  "description": ""
+  "description": "Sitio web destinado a ofrecer servicio tecnico para celulares, asi como la venta de sus accesorios."
 }

@@ -24,6 +24,9 @@
                 &:hover .sub-menu {
                     display: block;
                     background-image: $fondoGris;
+                    @media screen and (max-width: 1030px) {
+                        display: none;
+                    }
                 }
                 a {
                     font-family: $fontZen;

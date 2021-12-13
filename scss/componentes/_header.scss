@@ -9,6 +9,9 @@
             justify-content: start;
             margin: 3% 0% 2% 4%;
             width: 10%;
+            @media screen and (max-width: 430px) {
+                width: 15%;
+            }
             .logo-aesirtec {
                 border: 0.3rem solid $colorBordes;
                 border-radius: 100%;
@@ -24,6 +27,9 @@
             justify-content: end;
             margin-right: 3%;
             width: 15%;
+            @media screen and (max-width: 430px) {
+                width: 20%;
+            }
             .cuenta {
                 display: flex;
                 align-items: center;
